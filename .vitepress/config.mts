@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "smtc2web",
   description: "A VitePress Site",
+  sitemap: {
+      hostname: 'https://smtc2web.akarinliu.com'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
