@@ -6,13 +6,16 @@ hero:
   name: "smtc2web"
   text: "一个直播时显示正在播放音乐的小工具。"
   tagline: 由 Rust 和 Vue 强力驱动。
+  image:
+    src: ./public/icon.png
+    alt: 项目图标
   actions:
     - theme: brand
       text: 下载
-      link: https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.0/smtc2web_0.2.0_x64-setup.exe
+      link: https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.2/smtc2web_0.2.2_x64-setup.exe
     - theme: alt
       text: 备用下载
-      link: https://ghfast.top/https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.0/smtc2web_0.2.0_x64-setup.exe
+      link: https://ghfast.top/https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.2/smtc2web_0.2.2_x64-setup.exe
 
 features:
   - title: 实时显示
@@ -22,4 +25,3 @@ features:
   - title: 低内存占用
     details:  低配电脑可放心使用，无惧内存泄露。
 ---
-
