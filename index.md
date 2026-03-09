@@ -12,16 +12,16 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.2/smtc2web_0.2.2_x64-setup.exe
+      link: https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.5/smtc2web_0.2.5_x64-setup.exe
     - theme: alt
       text: 备用下载
-      link: https://ghfast.top/https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.2/smtc2web_0.2.2_x64-setup.exe
+      link: https://ghfast.top/https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.5/smtc2web_0.2.5_x64-setup.exe
 
 features:
   - title: 实时显示
     details: 播放信息通过 API 实时显示
-  - title: Vue 驱动
-    details: 得益于 Vue 强大的功能，可实现更好的实时性。
-  - title: 低内存占用
-    details:  低配电脑可放心使用，无惧内存泄露。
+  - title: Rust 驱动
+    details: 得益于 Rust 的强大功能，可实现更好的稳定性。
+  - title: 人性化 UI
+    details:  使用 Fluent UI 开发软件 UI，操作更加简约。
 ---
