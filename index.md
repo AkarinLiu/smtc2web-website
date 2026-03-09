@@ -23,5 +23,5 @@ features:
   - title: Rust 驱动
     details: 得益于 Rust 的强大功能，可实现更好的稳定性。
   - title: 人性化 UI
-    details:  使用 Fluent UI 开发软件 UI，操作更加简约。
+    details: 使用 Fluent UI 开发软件 UI，操作更加简约。
 ---
