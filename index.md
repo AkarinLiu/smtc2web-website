@@ -7,7 +7,7 @@ hero:
   text: "一个直播时显示正在播放音乐的小工具。"
   tagline: 由 Rust 和 Vue 强力驱动。
   image:
-    src: /icon.png
+    src: /app-icon.png
     alt: 项目图标
   actions:
     - theme: brand
