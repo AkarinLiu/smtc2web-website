@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.10/smtc2web_0.2.10_x64-setup.exe
+      link: /download
     - theme: alt
-      text: 备用下载
-      link: https://ghfast.top/https://github.com/AkarinLiu/smtc2web/releases/download/v0.2.10/smtc2web_0.2.10_x64-setup.exe
+      text: Wiki
+      link: /wiki
 
 features:
   - title: 实时显示

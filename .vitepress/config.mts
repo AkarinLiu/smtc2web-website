@@ -7,17 +7,22 @@ export default defineConfig({
   sitemap: {
     hostname: "https://smtc2web.akarinliu.com",
   },
+  lastUpdated: true,
   themeConfig: {
+    editLink: true,
+    docsRepo: "https://github.com/AkarinLiu/smtc2web-website",
+    docsBranch: "master",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "维基", link: "/wiki" },
+      { text: "下载", link: "/download" },
+      { text: "Wiki", link: "/wiki" },
     ],
 
     sidebar: {
       "/wiki/": [
         {
-          text: "维基",
+          text: "Wiki",
           items: [
             {
               text: "编译",
@@ -27,6 +32,7 @@ export default defineConfig({
             },
             { text: "更改字体", link: "/wiki/change-fonts.md" },
             { text: "SMTC 协议适配列表", link: "/wiki/smtc-protocol-list.md" },
+            { text: "主题开发指南", link: "/wiki/theme-dev-guide.md" },
           ],
         },
       ],
