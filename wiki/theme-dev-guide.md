@@ -56,13 +56,7 @@ createApp({
 
 ## 字符串
 
-### info.album_art
 
-这是用于展示专辑图片的字符串，例如：
-
-```
-<img v-if="info.album_art" :src="info.album_art" alt="Album Art" />
-```
 
 ### info.title
 
@@ -88,13 +82,14 @@ createApp({
 <p class="text-outline">{{ info.album || '–' }}</p>
 ```
 
-### info.pct
+### info.album_art
 
-这是用于展示进度条播放进度的百分比，例如：
+这是用于展示专辑图片的字符串，例如：
 
 ```
-<div class="bar" :style="{ width: info.pct + '%' }"></div>
+<img v-if="info.album_art" :src="info.album_art" alt="Album Art" />
 ```
+
 ### info.position
 
 这是用于展示当前播放进度的时间码，例如：
@@ -109,4 +104,12 @@ createApp({
 
 ```
 <span class="time">{{ info.duration || '0:00' }}</span>
+```
+
+### info.pct
+
+这是用于展示进度条播放进度的百分比，例如：
+
+```
+<div class="bar" :style="{ width: info.pct + '%' }"></div>
 ```
