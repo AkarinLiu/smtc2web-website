@@ -8,6 +8,7 @@ export default defineConfig({
     hostname: "https://smtc2web.akarinliu.com",
   },
   lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
     editLink: true,
     docsRepo: "https://github.com/AkarinLiu/smtc2web-website",
