@@ -137,3 +137,25 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Component: Bilibili Social Card
+ * -------------------------------------------------------------------------- */
+
+.bilibili-social-card {
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.bilibili-social-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--vp-c-text-1);
+}
+
+.bilibili-social-card img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
