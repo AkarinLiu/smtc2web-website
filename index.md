@@ -25,3 +25,9 @@ features:
   - title: 人性化 UI
     details: 使用 Fluent UI 开发软件 UI，操作更加简约。
 ---
+
+## 捐赠
+
+|微信|支付宝|
+|-|-|
+|![微信赞赏码](./public/mm_reward_qrcode_1776137505533.png)|![支付宝付款码](./public/1776137554874.jpg)|
