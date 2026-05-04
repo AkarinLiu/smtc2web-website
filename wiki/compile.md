@@ -23,7 +23,7 @@ git submodule update --init --recursive
 - Rustup
 
 
-## 构建源代码
+### 构建源代码
 
 ```bash
 cd smtc2web
@@ -83,6 +83,7 @@ volta install pnpm
 输入以下命令安装 Tauri 依赖。
 
 ```bash
+cd smtc2web
 pnpm install
 ```
 
@@ -97,7 +98,7 @@ https://tauri.app/zh-cn/start/prerequisites/#linux
 pnpm tauri:build
 ```
 
-构建好后，会保存在以下路径，双击安装即可使用。
+构建好后，安装包将保存在以下路径，双击安装即可使用。
 
 ```
 src-tauri/target/release/bundle/deb
