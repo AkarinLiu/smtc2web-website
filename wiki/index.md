@@ -6,4 +6,4 @@
 
 ## 编译
 
-- [在 Windows 上编译](./compile/windows.md)
+- [在 Windows 上编译](./compile.md)
