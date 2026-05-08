@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: /download
+      link: https://github.com/AkarinLiu/smtc2web/releases
     - theme: alt
       text: Wiki
       link: /wiki
