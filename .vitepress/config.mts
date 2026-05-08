@@ -5,7 +5,7 @@ export default defineConfig({
   title: "smtc2web",
   description: "A VitePress Site",
   sitemap: {
-    hostname: "https://smtc2web.akarinliu.com",
+    hostname: "https://smtc2web.org",
   },
   lastUpdated: true,
   cleanUrls: true,
