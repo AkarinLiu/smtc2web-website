@@ -16,8 +16,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "Wiki", link: "/wiki" },
       { text: "下载", link: "https://github.com/AkarinLiu/smtc2web/releases" },
+      { text: "Wiki", link: "https://deepwiki.com/AkarinLiu/smtc2web" },
     ],
 
     sidebar: {
