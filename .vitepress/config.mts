@@ -17,17 +17,24 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "博客", link: "/posts/" },
+      { text: "关于", link: "/about" },
+      { text: "隐私政策", link: "/privacy" },
+
       { text: "下载", link: "https://github.com/AkarinLiu/smtc2web/releases" },
-      { text: "Wiki", link: "https://deepwiki.com/AkarinLiu/smtc2web" },
+      {
+        text: "Wiki",
+        items: [
+          { text: "官方 Wiki", link: "/wiki" },
+          { text: "DeepWiki", link: "https://deepwiki.com/AkarinLiu/smtc2web" },
+        ],
+      },
     ],
 
     sidebar: {
       "/posts/": [
         {
           text: "博客",
-          items: [
-            { text: "所有文章", link: "/posts/" },
-          ],
+          items: [{ text: "所有文章", link: "/posts/" }],
         },
       ],
       "/wiki/": [
