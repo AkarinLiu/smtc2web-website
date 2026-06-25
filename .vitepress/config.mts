@@ -16,11 +16,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
+      { text: "博客", link: "/posts/" },
       { text: "下载", link: "https://github.com/AkarinLiu/smtc2web/releases" },
       { text: "Wiki", link: "https://deepwiki.com/AkarinLiu/smtc2web" },
     ],
 
     sidebar: {
+      "/posts/": [
+        {
+          text: "博客",
+          items: [
+            { text: "所有文章", link: "/posts/" },
+          ],
+        },
+      ],
       "/wiki/": [
         {
           text: "Wiki",
