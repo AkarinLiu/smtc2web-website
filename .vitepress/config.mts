@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "smtc2web",
-  description: "A VitePress Site",
+  description: "一个直播时显示正在播放音乐的小工具",
   sitemap: {
     hostname: "https://smtc2web.org",
   },
@@ -19,6 +19,7 @@ export default defineConfig({
       { text: "博客", link: "/posts/" },
       { text: "关于", link: "/about" },
       { text: "隐私政策", link: "/privacy" },
+      { text: "联系我", link: "/contact" },
 
       { text: "下载", link: "https://github.com/AkarinLiu/smtc2web/releases" },
       {
@@ -29,7 +30,11 @@ export default defineConfig({
         ],
       },
     ],
-
+    footer: {
+      message:
+        '基于 <a href="https://github.com/AkarinLiu/smtc2web">MIT 许可</a> 发布',
+      copyright: "Copyright © 2025–2026 AkarinLiu",
+    },
     sidebar: {
       "/posts/": [
         {
