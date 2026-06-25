@@ -186,12 +186,33 @@ onMounted(() => {
             </div>
         </Transition>
 
-        <!-- "Update preferences" link (always visible) -->
-        <div class="cookie-preferences-wrapper">
-            <button class="cookie-preferences-link" @click="openPreferences">
-                更新 Cookie 偏好设置
-            </button>
-        </div>
+        <!-- Cookie preferences icon (top-right, always visible) -->
+        <button
+            class="cookie-preferences-icon"
+            @click="openPreferences"
+            title="Cookie 偏好设置"
+            aria-label="Cookie 偏好设置"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6a2 2 0 0 1 2 2c0 .7-.4 1.3-1 1.6" />
+                <circle cx="8.5" cy="10.5" r="1.5" />
+                <circle cx="15.5" cy="10.5" r="1.5" />
+                <path d="M10 14c.7.5 1.3.8 2 .8s1.3-.3 2-.8" />
+                <path d="M9 9v.01" />
+                <path d="M15 9v.01" />
+            </svg>
+        </button>
     </Teleport>
 </template>
 
@@ -419,29 +440,48 @@ onMounted(() => {
     justify-content: flex-end;
 }
 
-/* ---- Persistent "Update preferences" link ---- */
-.cookie-preferences-wrapper {
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.cookie-preferences-link {
-    display: inline-block;
-    font-size: 0.8125rem;
+/* ---- Persistent cookie-preferences icon (top-right) ---- */
+.cookie-preferences-icon {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--vp-c-divider);
+    background: var(--vp-c-bg-soft);
     color: var(--vp-c-text-2);
-    background: none;
-    border: none;
     cursor: pointer;
-    padding: 4px 0;
-    transition: color 0.25s;
+    transition:
+        color 0.2s,
+        background 0.2s,
+        border-color 0.2s,
+        transform 0.2s;
 }
 
-.cookie-preferences-link:hover {
+.cookie-preferences-icon:hover {
     color: var(--vp-c-brand-1);
+    border-color: var(--vp-c-brand-1);
+    background: var(--vp-c-bg);
+    transform: scale(1.1);
+}
+
+.cookie-preferences-icon:active {
+    transform: scale(0.95);
 }
 
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
+    .cookie-preferences-icon {
+        top: auto;
+        bottom: 1rem;
+        right: 1rem;
+    }
+
     .consent-banner-inner {
         flex-direction: column;
         align-items: stretch;
