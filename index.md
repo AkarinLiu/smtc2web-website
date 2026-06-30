@@ -19,9 +19,9 @@ hero:
 
 features:
   - title: 实时显示
-    details: 播放信息通过 API 实时显示
+    details: 播放信息通过 API 实时显示。
   - title: Rust 驱动
     details: 得益于 Rust 的强大功能，可实现更好的稳定性。
-  - title: 人性化 UI
-    details: 使用 Fluent UI 开发软件 UI，操作更加简约。
+  - title: Vite 驱动
+    details: 使用 Vite 框架构建 UI，构建快速，UI 极简。
 ---
