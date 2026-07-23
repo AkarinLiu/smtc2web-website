@@ -1,7 +1,6 @@
 <script setup>
 import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
-import CookieConsent from "./CookieConsent.vue";
 
 const { Layout } = DefaultTheme;
 const { frontmatter, page } = useData();
@@ -52,9 +51,7 @@ const isPost = () => {
                 />
             </div>
         </template>
-        <template #layout-bottom>
-            <CookieConsent />
-        </template>
+
     </Layout>
 </template>
 
