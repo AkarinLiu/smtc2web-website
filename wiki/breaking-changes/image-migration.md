@@ -1,5 +1,8 @@
 # 破坏性变更：图片 API 变更
 
+>[!Caution]
+> 此变更已被取消，原因：完全没有必要变更！
+
 ## 发生了什么
 
 smtc2web 新增了独立的专辑图片路由 `GET /api/image.jpg`，主题无需再从 `/api/now` JSON 中解码 Base64 再构造 `<img>` 标签。

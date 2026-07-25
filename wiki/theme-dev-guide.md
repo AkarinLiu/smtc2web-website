@@ -84,9 +84,6 @@ createApp({
 
 ### info.album_art
 
-> [!Caution]
-> 此字符串将在1.0版本中移除，[迁移指南](./breaking-changes/image-migration.md)
-
 这是用于展示专辑图片的字符串，例如：
 
 ```
