@@ -21,7 +21,7 @@ export default defineConfig({
       { text: "隐私政策", link: "/privacy" },
       { text: "联系我", link: "/contact" },
 
-      { text: "下载", link: "https://github.com/AkarinLiu/smtc2web/releases" },
+      { text: "下载", link: "/download" },
       {
         text: "Wiki",
         items: [
